@@ -1,0 +1,160 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header.contact-header {
+    background: url('./images/contactbg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  #border {
+    margin:  auto; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px 50px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 600px; /* Limits the content width */
+  }
+  
+  header.contact-header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  header.contact-header p {
+    font-size: 1em;
+  }
+  
+  .contact-info {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+  }
+  
+  .contact-info p {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .contact-info .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-info .social-icons a:hover {
+    color: #0d3add;
+  }
+  
+  footer.footer {
+    background: linear-gradient(135deg, #111016, #382b77);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  footer p{
+    font-size: .8rem;
+    padding: 10px;
+  }
+
+  /* reponsive  */
+  /* Responsive Styles */
+
+/* For medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+    header.contact-header {
+      padding: 15px;
+    }
+  
+    #border {
+      padding: 15px 30px;
+      font-size: 0.9em;
+      width: 90%;
+    }
+  
+    header.contact-header h1 {
+      font-size: 1.8em;
+    }
+  
+    header.contact-header p {
+      font-size: 0.9em;
+    }
+  
+    .contact-info {
+      padding: 30px 10px;
+    }
+  
+    .contact-info h2 {
+      font-size: 1.5em;
+    }
+  
+    .contact-info p {
+      font-size: 0.9em;
+    }
+  
+    .contact-info .social-icons a {
+      font-size: 1.2em;
+      margin: 0 5px;
+    }
+  }
+  
+  /* For small devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    header.contact-header {
+      padding: 10px;
+    }
+  
+    #border {
+      padding: 10px 20px;
+      font-size: 0.8em;
+    }
+  
+    header.contact-header h1 {
+      font-size: 1.5em;
+    }
+  
+    header.contact-header p {
+      font-size: 0.8em;
+    }
+  
+    .contact-info {
+      padding: 20px 5px;
+    }
+  
+    .contact-info h2 {
+      font-size: 1.2em;
+    }
+  
+    .contact-info p {
+      font-size: 0.8em;
+    }
+  
+    .contact-info .social-icons a {
+      font-size: 1em;
+      margin: 0 3px;
+    }
+  
+    footer p {
+      font-size: 0.7rem;
+    }
+  }
+  
+  
